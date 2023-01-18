@@ -48,7 +48,7 @@ public class test {
         String name = (String) fesObject.get("name");
         System.out.println(name);
         String location = (String) fesObject.get("place");
-        System.out.println(location + "//n");
+        System.out.println(location + "\n");
 
     }
 

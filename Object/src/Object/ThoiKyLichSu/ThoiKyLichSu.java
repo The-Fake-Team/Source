@@ -15,4 +15,18 @@ public class ThoiKyLichSu {
     private Date thoiGianKetThuc;
     private List<Vua> danhSachVua = new ArrayList<>();
     
+    public ThoiKyLichSu(String QuocHieu, Date thoiGianBatDau, Date thoiGianKetThuc) {
+        this.QuocHieu = QuocHieu;
+        this.thoiGianBatDau = thoiGianBatDau;
+        this.thoiGianKetThuc = thoiGianKetThuc;
+    }
+
+    public void addVua(Vua vua) {
+        danhSachVua.add(vua);
+    }
+
+    public String getName()
+    {
+        return QuocHieu;
+    }
 }

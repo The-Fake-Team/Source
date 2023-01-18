@@ -1,6 +1,9 @@
 package Object.NhanVatLichSu;
 
 import java.util.Date;
+
+import Object.ThoiKyLichSu.ThoiKyLichSu;
+
 import java.time.LocalDate;
 
 
@@ -13,7 +16,7 @@ public class Vua extends NhanVatLichSu {
     private String Trivi;
     private NhanVatLichSu TheThu;
 
-    public Vua(String ten, Date NgaySinh, Date NgayMat, String QueQuan, String TrieuDai, String ThuyHieu, String NienHieu, String MienHieu, String Trivi, NhanVatLichSu TheThu) {
+    public Vua(String ten, Date NgaySinh, Date NgayMat, String QueQuan, ThoiKyLichSu TrieuDai, String ThuyHieu, String NienHieu, String MienHieu, String Trivi, NhanVatLichSu TheThu) {
         super(ten, NgaySinh, NgayMat, QueQuan, TrieuDai);
         this.ThuyHieu = ThuyHieu;
         this.NienHieu = NienHieu;
