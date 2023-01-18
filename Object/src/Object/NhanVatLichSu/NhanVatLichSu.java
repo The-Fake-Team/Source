@@ -1,6 +1,7 @@
 package Object.NhanVatLichSu;
 
 import java.util.Date;
+import Object.ThoiKyLichSu.ThoiKyLichSu;
 import java.time.LocalDate;
 
 
@@ -10,9 +11,9 @@ public class NhanVatLichSu {
     private Date NgaySinh;
     private Date NgayMat;
     private String QueQuan;
-    private String TrieuDai;
+    private ThoiKyLichSu TrieuDai;
 
-    public NhanVatLichSu(String ten, Date NgaySinh, Date NgayMat, String QueQuan, String TrieuDai) {
+    public NhanVatLichSu(String ten, Date NgaySinh, Date NgayMat, String QueQuan, ThoiKyLichSu TrieuDai) {
         this.ten = ten;
         this.NgaySinh = NgaySinh;
         this.NgayMat = NgayMat;
@@ -33,7 +34,7 @@ public class NhanVatLichSu {
         return QueQuan;
     }
     public String getTrieuDai() {
-        return TrieuDai;
+        return TrieuDai.getName();
     }
     public void setTen(String ten) {
         this.ten = ten;
@@ -47,16 +48,13 @@ public class NhanVatLichSu {
     public void setQueQuan(String QueQuan) {
         this.QueQuan = QueQuan;
     }
-    public void setTrieuDai(String TrieuDai) {
-        this.TrieuDai = TrieuDai;
-    }
 
     public void showInfo() {
         System.out.println("Ten: " + this.ten);
         System.out.println("Ngay sinh: " + this.NgaySinh);
         System.out.println("Ngay mat: " + this.NgayMat);
         System.out.println("Que quan: " + this.QueQuan);
-        System.out.println("Trieu dai: " + this.TrieuDai);
+        System.out.println("Trieu dai: " + this.TrieuDai.getName());
     }
 }
 
