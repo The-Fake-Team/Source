@@ -1,8 +1,8 @@
-package Object.LeHoi;
+package Object.Festival;
 import java.util.Date;
 import java.time.LocalDate;
 
-public class LeHoi {
+public class Festival {
     private String Ten;
     private String ThoiGian;
     private String DiaDiem;
@@ -10,7 +10,7 @@ public class LeHoi {
     // private SuKienLichSu SuKienLienQuan;
     // private String MoTa;
 
-    public LeHoi(String ThoiGian, String Ten, String DiaDiem/*
+    public Festival(String ThoiGian, String Ten, String DiaDiem/*
                                                            * , DiTichLichSu DiTichLienQuan, SuKienLichSu SuKienLienQuan,
                                                            * String MoTa
                                                            */) {

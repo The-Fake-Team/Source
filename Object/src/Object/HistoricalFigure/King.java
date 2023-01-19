@@ -1,22 +1,22 @@
-package Object.NhanVatLichSu;
+package Object.HistoricalFigure;
 
 import java.util.Date;
 
-import Object.ThoiKyLichSu.ThoiKyLichSu;
+import Object.HistoricalPeriod.*;
 
 import java.time.LocalDate;
 
 
 
 
-public class Vua extends NhanVatLichSu {
+public class King extends HistoricalFigure {
     private String ThuyHieu;
     private String NienHieu;
     private String MienHieu;
     private String Trivi;
-    private NhanVatLichSu TheThu;
+    private HistoricalFigure TheThu;
 
-    public Vua(String ten, Date NgaySinh, Date NgayMat, String QueQuan, ThoiKyLichSu TrieuDai, String ThuyHieu, String NienHieu, String MienHieu, String Trivi, NhanVatLichSu TheThu) {
+    public King(String ten, Date NgaySinh, Date NgayMat, String QueQuan, HistoricalPeriod TrieuDai, String ThuyHieu, String NienHieu, String MienHieu, String Trivi, HistoricalFigure TheThu) {
         super(ten, NgaySinh, NgayMat, QueQuan, TrieuDai);
         this.ThuyHieu = ThuyHieu;
         this.NienHieu = NienHieu;
@@ -36,7 +36,7 @@ public class Vua extends NhanVatLichSu {
     public void setTrivi(String Trivi) {
         this.Trivi = Trivi;
     }
-    public void setTheThu(NhanVatLichSu TheThu) {
+    public void setTheThu(HistoricalFigure TheThu) {
         this.TheThu = TheThu;
     }
     public String getThuyHieu() {
@@ -51,7 +51,7 @@ public class Vua extends NhanVatLichSu {
     public String getTrivi() {
         return Trivi;
     }
-    public NhanVatLichSu getTheThu() {
+    public HistoricalFigure getTheThu() {
         return TheThu;
     }
 
