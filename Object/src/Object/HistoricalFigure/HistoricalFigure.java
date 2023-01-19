@@ -1,19 +1,19 @@
-package Object.NhanVatLichSu;
+package Object.HistoricalFigure;
 
 import java.util.Date;
-import Object.ThoiKyLichSu.ThoiKyLichSu;
+import Object.HistoricalPeriod.*;
 import java.time.LocalDate;
 
 
 
-public class NhanVatLichSu {
+public class HistoricalFigure {
     private String ten;
     private Date NgaySinh;
     private Date NgayMat;
     private String QueQuan;
-    private ThoiKyLichSu TrieuDai;
+    private HistoricalPeriod TrieuDai;
 
-    public NhanVatLichSu(String ten, Date NgaySinh, Date NgayMat, String QueQuan, ThoiKyLichSu TrieuDai) {
+    public HistoricalFigure(String ten, Date NgaySinh, Date NgayMat, String QueQuan, HistoricalPeriod TrieuDai) {
         this.ten = ten;
         this.NgaySinh = NgaySinh;
         this.NgayMat = NgayMat;

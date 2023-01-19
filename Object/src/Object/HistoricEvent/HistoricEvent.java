@@ -1,22 +1,22 @@
-package Object.SuKienLichSu;
+package Object.HistoricEvent;
 
 import java.util.ArrayList;
 import java.util.List;
-import Object.NhanVatLichSu.NhanVatLichSu;
+import Object.HistoricalFigure.*;
 
 import java.util.Date;
 import java.time.LocalDate;
 
 
 
-public class SuKienLichSu {
+public class HistoricEvent {
     private String Ten;
     private Date ThoiGianBatDau;
     private Date ThoiGianKetThuc;
-    private List<NhanVatLichSu> NhanVatLienQuan = new ArrayList<>();
+    private List<HistoricalFigure> NhanVatLienQuan = new ArrayList<>();
     private String MoTa;
 
-    public SuKienLichSu(String Ten, Date ThoiGianBatDau, Date ThoiGianKetThuc, List<NhanVatLichSu> NhanVatLienQuan,
+    public HistoricEvent(String Ten, Date ThoiGianBatDau, Date ThoiGianKetThuc, List<HistoricalFigure> NhanVatLienQuan,
             String MoTa) {
         this.Ten = Ten;
         this.ThoiGianBatDau = ThoiGianBatDau;
@@ -37,7 +37,7 @@ public class SuKienLichSu {
         this.ThoiGianKetThuc = ThoiGianKetThuc;
     }
 
-    public void setNhanVatLienQuan(List<NhanVatLichSu> NhanVatLienQuan) {
+    public void setNhanVatLienQuan(List<HistoricalFigure> NhanVatLienQuan) {
         this.NhanVatLienQuan = NhanVatLienQuan;
     }
 
@@ -57,7 +57,7 @@ public class SuKienLichSu {
         return ThoiGianKetThuc;
     }
 
-    public List<NhanVatLichSu> getNhanVatLienQuan() {
+    public List<HistoricalFigure> getNhanVatLienQuan() {
         return NhanVatLienQuan;
     }
 

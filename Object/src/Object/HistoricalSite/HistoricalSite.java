@@ -1,17 +1,17 @@
-package Object.DiTichLichSu;
+package Object.HistoricalSite;
 import java.util.Date;
 import java.time.LocalDate;
-import Object.SuKienLichSu.SuKienLichSu;
+import Object.HistoricEvent.*;
 
-public class DiTichLichSu {
+public class HistoricalSite {
     
     private String Ten;
     private Date NamXayDung;
     private String DiaDiem;
-    private SuKienLichSu SuKienLienQuan;
+    private HistoricEvent SuKienLienQuan;
     private String MoTa;
 
-    public DiTichLichSu(String Ten, Date NamXayDung, String DiaDiem, SuKienLichSu SuKienLienQuan, String MoTa) {
+    public HistoricalSite(String Ten, Date NamXayDung, String DiaDiem, HistoricEvent SuKienLienQuan, String MoTa) {
         this.Ten = Ten;
         this.NamXayDung = NamXayDung;
         this.DiaDiem = DiaDiem;
