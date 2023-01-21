@@ -5,16 +5,13 @@ import java.util.List;
 
 import Object.HistoricalFigure.*;
 
-import java.util.Date;
-import java.time.LocalDate;
-
 public class HistoricalPeriod {
     private String QuocHieu;
-    private Date thoiGianBatDau;
-    private Date thoiGianKetThuc;
+    private int thoiGianBatDau;
+    private int thoiGianKetThuc;
     private List<King> danhSachVua = new ArrayList<>();
     
-    public HistoricalPeriod(String QuocHieu, Date thoiGianBatDau, Date thoiGianKetThuc) {
+    public HistoricalPeriod(String QuocHieu, int thoiGianBatDau, int thoiGianKetThuc) {
         this.QuocHieu = QuocHieu;
         this.thoiGianBatDau = thoiGianBatDau;
         this.thoiGianKetThuc = thoiGianKetThuc;
@@ -23,9 +20,15 @@ public class HistoricalPeriod {
     public void addVua(King vua) {
         danhSachVua.add(vua);
     }
-
     public String getName()
     {
         return QuocHieu;
     }
+    public int getThoiGianBatDau() {
+        return thoiGianBatDau;
+    }
+    public int getThoiGianKetThuc() {
+        return thoiGianKetThuc;
+    }
+
 }

@@ -1,19 +1,15 @@
 package Object.HistoricalFigure;
 
-import java.util.Date;
 import Object.HistoricalPeriod.*;
-import java.time.LocalDate;
-
-
 
 public class HistoricalFigure {
     private String ten;
-    private Date NgaySinh;
-    private Date NgayMat;
+    private int NgaySinh;
+    private int NgayMat;
     private String QueQuan;
     private HistoricalPeriod TrieuDai;
 
-    public HistoricalFigure(String ten, Date NgaySinh, Date NgayMat, String QueQuan, HistoricalPeriod TrieuDai) {
+    public HistoricalFigure(String ten, int NgaySinh, int NgayMat, String QueQuan, HistoricalPeriod TrieuDai) {
         this.ten = ten;
         this.NgaySinh = NgaySinh;
         this.NgayMat = NgayMat;
@@ -24,10 +20,10 @@ public class HistoricalFigure {
     public String getTen() {
         return ten;
     }
-    public Date getNgaySinh() {
+    public int getNgaySinh() {
         return NgaySinh;
     }
-    public Date getNgayMat() {
+    public int getNgayMat() {
         return NgayMat;
     }
     public String getQueQuan() {
@@ -39,10 +35,10 @@ public class HistoricalFigure {
     public void setTen(String ten) {
         this.ten = ten;
     }
-    public void setNgaySinh(Date NgaySinh) {
+    public void setNgaySinh(int NgaySinh) {
         this.NgaySinh = NgaySinh;
     }
-    public void setNgayMat(Date NgayMat) {
+    public void setNgayMat(int NgayMat) {
         this.NgayMat = NgayMat;
     }
     public void setQueQuan(String QueQuan) {

@@ -1,13 +1,7 @@
 package Object.HistoricalFigure;
 
-import java.util.Date;
 
 import Object.HistoricalPeriod.*;
-
-import java.time.LocalDate;
-
-
-
 
 public class King extends HistoricalFigure {
     private String ThuyHieu;
@@ -16,7 +10,7 @@ public class King extends HistoricalFigure {
     private String Trivi;
     private HistoricalFigure TheThu;
 
-    public King(String ten, Date NgaySinh, Date NgayMat, String QueQuan, HistoricalPeriod TrieuDai, String ThuyHieu, String NienHieu, String MienHieu, String Trivi, HistoricalFigure TheThu) {
+    public King(String ten, int NgaySinh, int NgayMat, String QueQuan, HistoricalPeriod TrieuDai, String ThuyHieu, String NienHieu, String MienHieu, String Trivi, HistoricalFigure TheThu) {
         super(ten, NgaySinh, NgayMat, QueQuan, TrieuDai);
         this.ThuyHieu = ThuyHieu;
         this.NienHieu = NienHieu;
