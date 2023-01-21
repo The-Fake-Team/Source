@@ -7,7 +7,7 @@ import java.time.LocalDate;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
-import Object.NhanVatLichSu.*;
+import Object.HistoricalFigure.*;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -17,7 +17,7 @@ import org.json.simple.parser.*;
 
 public class test {
     public static void main(String[] args) throws org.json.simple.parser.ParseException {
-        // NhanVatLichSu a = new NhanVatLichSu(null, null,null,null,null);
+        // HistoricalFigure a = new HistoricalFigure(null, null,null,null,null);
         // a.setTen("Nguyen Van A");
         // a.setNgaySinh(new Date());
         // a.setNgayMat(new Date());
