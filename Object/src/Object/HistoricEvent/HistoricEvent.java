@@ -3,6 +3,7 @@ package Object.HistoricEvent;
 import java.util.ArrayList;
 import java.util.List;
 import Object.HistoricalFigure.*;
+import Object.HistoricalPeriod.HistoricalPeriod;
 
 import java.util.Date;
 import java.time.LocalDate;
@@ -64,5 +65,6 @@ public class HistoricEvent {
     public String getMoTa() {
         return MoTa;
     }
+
 
 }
