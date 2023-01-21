@@ -7,8 +7,8 @@
  2. Get update from main branch
 ```Console
     git switch your_branch_name     # make sure you are on right branch 
-    git pull origin main            # update with remote main repo
-    git merge origin/main           # get master update
+    git pull origin master           # update with remote main repo
+    git merge origin/master         # get master update
 ```
  2. Commit your work    
 ```Console
@@ -18,6 +18,6 @@
 ```
  3. Delete your old branch after finish your work
 ```Console
-    git switch main                     # go away from deleting branch
+    git switch master                   # go away from deleting branch
     git branch -d old_branch_name       # delete it
 ```
