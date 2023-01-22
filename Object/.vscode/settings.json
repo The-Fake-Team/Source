@@ -2,6 +2,10 @@
     "java.project.sourcePaths": ["src"],
     "java.project.outputPath": "bin",
     "java.project.referencedLibraries": [
-        "lib/**/*.jar"
+        "lib/**/*.jar",
+        "d:\\Tool\\json-simple-1.1.1.jar",
+        "d:\\Tool\\jsoup-1.15.3 (1).jar",
+        "d:\\Tool\\jar_files\\json-20220924.jar",
+        "d:\\Tool\\gson-2.10.1.jar"
     ]
 }

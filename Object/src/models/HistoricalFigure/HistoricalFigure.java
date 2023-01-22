@@ -16,7 +16,6 @@ public class HistoricalFigure {
         this.QueQuan = QueQuan;
         this.TrieuDai = TrieuDai;
     }
-
     public String getTen() {
         return ten;
     }
