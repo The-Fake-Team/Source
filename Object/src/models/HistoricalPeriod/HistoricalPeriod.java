@@ -1,17 +1,18 @@
-package Object.HistoricalPeriod;
+package models.HistoricalPeriod;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Date;
 
-import Object.HistoricalFigure.*;
+import models.HistoricalFigure.*;
 
 public class HistoricalPeriod {
     private String QuocHieu;
-    private int thoiGianBatDau;
-    private int thoiGianKetThuc;
+    private Date thoiGianBatDau;
+    private Date thoiGianKetThuc;
     private List<King> danhSachVua = new ArrayList<>();
     
-    public HistoricalPeriod(String QuocHieu, int thoiGianBatDau, int thoiGianKetThuc) {
+    public HistoricalPeriod(String QuocHieu, Date thoiGianBatDau, Date thoiGianKetThuc) {
         this.QuocHieu = QuocHieu;
         this.thoiGianBatDau = thoiGianBatDau;
         this.thoiGianKetThuc = thoiGianKetThuc;
@@ -24,10 +25,10 @@ public class HistoricalPeriod {
     {
         return QuocHieu;
     }
-    public int getThoiGianBatDau() {
+    public Date getThoiGianBatDau() {
         return thoiGianBatDau;
     }
-    public int getThoiGianKetThuc() {
+    public Date getThoiGianKetThuc() {
         return thoiGianKetThuc;
     }
 
