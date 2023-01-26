@@ -8,28 +8,37 @@ import models.HistoricalFigure.*;
 
 public class HistoricalPeriod {
     private String QuocHieu;
-    private Date thoiGianBatDau;
-    private Date thoiGianKetThuc;
-    private List<King> danhSachVua = new ArrayList<>();
-    
-    public HistoricalPeriod(String QuocHieu, Date thoiGianBatDau, Date thoiGianKetThuc) {
+    private String thoiGianBatDau;
+    private String thoiGianKetThuc;
+
+    public HistoricalPeriod(String QuocHieu, String start, String end) {
         this.QuocHieu = QuocHieu;
-        this.thoiGianBatDau = thoiGianBatDau;
-        this.thoiGianKetThuc = thoiGianKetThuc;
+        this.thoiGianBatDau = start;
+        this.thoiGianKetThuc = end;
     }
 
-    public void addVua(King vua) {
-        danhSachVua.add(vua);
+    public HistoricalPeriod() {
+        this.QuocHieu = null;
+        this.thoiGianBatDau = null;
+        this.thoiGianKetThuc = null;
     }
-    public String getName()
-    {
+
+    public String getName() {
         return QuocHieu;
     }
-    public Date getThoiGianBatDau() {
+
+    public String getThoiGianBatDau() {
         return thoiGianBatDau;
     }
-    public Date getThoiGianKetThuc() {
+
+    public String getThoiGianKetThuc() {
         return thoiGianKetThuc;
+    }
+
+    public void show() {
+        System.out.println("Quoc Hieu: " + QuocHieu);
+        System.out.println("Thoi Gian Bat Dau: " + thoiGianBatDau);
+        System.out.println("Thoi Gian Ket Thuc: " + thoiGianKetThuc);
     }
 
 }

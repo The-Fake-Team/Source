@@ -11,8 +11,8 @@ public class King extends HistoricalFigure {
     private HistoricalFigure TheThu;
 
     public King(String ten, String tenKhac, Date NgaySinh, Date NgayMat, String QueQuan, int start, int end,
-            String Mota, String ThuyHieu, String NienHieu, String MienHieu, String Trivi, HistoricalFigure TheThu) {
-        super(ten, tenKhac, NgaySinh, NgayMat, QueQuan, start, end, Mota);
+            String Mota, String ThuyHieu, String NienHieu, String MienHieu, String Trivi, HistoricalFigure TheThu, HistoricalPeriod period) {
+        super(ten, tenKhac, NgaySinh, NgayMat, QueQuan, start, end, Mota, period);
         this.ThuyHieu = ThuyHieu;
         this.NienHieu = NienHieu;
         this.MienHieu = MienHieu;

@@ -12,9 +12,10 @@ public class HistoricalFigure {
     private int start;
     private int end;
     private String Mota;
+    private HistoricalPeriod period;
 
     public HistoricalFigure(String ten, String tenKhac, Date NgaySinh, Date NgayMat, String QueQuan, int start, int end,
-            String Mota) {
+            String Mota, HistoricalPeriod period) {
         this.ten = ten;
         this.tenKhac = tenKhac;
         this.NgaySinh = NgaySinh;
@@ -23,6 +24,7 @@ public class HistoricalFigure {
         this.start = start;
         this.end = end;
         this.Mota = Mota;
+        this.period = period;
     }
 
     public String getTen() {
@@ -81,11 +83,13 @@ public class HistoricalFigure {
         Mota = mota;
     }
 
-    public void showInfo() {
+    public void show() {
         System.out.println("Ten: " + this.ten);
         System.out.println("Ngay sinh: " + this.NgaySinh);
         System.out.println("Ngay mat: " + this.NgayMat);
         System.out.println("Que quan: " + this.QueQuan);
+        System.out.println("Thoi ky: " + this.period.getName());
+        System.out.println("Mo ta: " + this.Mota);
 
     }
 }
