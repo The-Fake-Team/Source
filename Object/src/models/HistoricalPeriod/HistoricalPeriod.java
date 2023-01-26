@@ -8,10 +8,10 @@ import models.HistoricalFigure.*;
 
 public class HistoricalPeriod {
     private String QuocHieu;
-    private String thoiGianBatDau;
-    private String thoiGianKetThuc;
+    private int thoiGianBatDau;
+    private int thoiGianKetThuc;
 
-    public HistoricalPeriod(String QuocHieu, String start, String end) {
+    public HistoricalPeriod(String QuocHieu, int start, int end) {
         this.QuocHieu = QuocHieu;
         this.thoiGianBatDau = start;
         this.thoiGianKetThuc = end;
@@ -19,19 +19,19 @@ public class HistoricalPeriod {
 
     public HistoricalPeriod() {
         this.QuocHieu = null;
-        this.thoiGianBatDau = null;
-        this.thoiGianKetThuc = null;
+        this.thoiGianBatDau = 0;
+        this.thoiGianKetThuc = 0;
     }
 
     public String getName() {
         return QuocHieu;
     }
 
-    public String getThoiGianBatDau() {
+    public int getThoiGianBatDau() {
         return thoiGianBatDau;
     }
 
-    public String getThoiGianKetThuc() {
+    public int getThoiGianKetThuc() {
         return thoiGianKetThuc;
     }
 

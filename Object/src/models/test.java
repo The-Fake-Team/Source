@@ -10,6 +10,8 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 
+import javax.sound.midi.SysexMessage;
+
 import models.Festival.Festival;
 import models.HistoricalFigure.*;
 import models.HistoricalPeriod.HistoricalPeriod;
@@ -26,7 +28,7 @@ public class test {
         SimpleDateFormat df = new SimpleDateFormat("dd/MM  ");
         ArrayList<HistoricalPeriod> periods = new ArrayList<HistoricalPeriod>();
         ArrayList<HistoricalFigure> figures = new ArrayList<HistoricalFigure>();
-        Map<String, HistoricalPeriod> periodMap = new HashMap<String, HistoricalPeriod>();
+        Map<Integer, HistoricalPeriod> periodMap = new HashMap<Integer, HistoricalPeriod>();
 
         // HistoricalFigure a = new HistoricalFigure(null, null,null,null,null);
         // a.setTen("Nguyen Van A");
@@ -45,18 +47,26 @@ public class test {
                 "D://TaiLieu//Nam3//Ky1//OOP//BTL//Code//Source//Object//src//models//Data//period.json")) {
             Object obj = jsonpanser.parse(reader);
             JSONArray period = (JSONArray) obj;
+            // Number a = null;
+            // Number b = null;
             // System.out.println(period);
             for (int i = 0; i < period.size(); i++) {
                 JSONObject emp = (JSONObject) period.get(i);
                 String name = (String) emp.get("name");
-                String start = (String) emp.get("start");
-                String end = (String) emp.get("end");
-
-                HistoricalPeriod a = new HistoricalPeriod(name, start, end);
-                if (!start.equals("null")) {
-                    periodMap.put(start, a);
+                Number a = (Number) emp.get("start");
+                Number b = (Number) emp.get("end");
+                if (a == null) {
+                    a = 0;
                 }
-                periods.add(a);
+                int start = a.intValue();
+                if (b == null) {
+                    b = 2100;
+                }
+                int end = b.intValue();
+                HistoricalPeriod period1 = new HistoricalPeriod(name, start, end);
+                periods.add(period1);
+                periodMap.put(start, period1);
+
             }
 
         } catch (FileNotFoundException e) {
@@ -64,7 +74,7 @@ public class test {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        Set<String> keys = periodMap.keySet();
+        // Set<String> keys = periodMap.keySet();
         // for( String key : keys){
         // System.out.println(key);
         // }
@@ -78,12 +88,13 @@ public class test {
         // Đọc nhân vật lịch sử
         try (FileReader reader = new FileReader(
                 "D://TaiLieu//Nam3//Ky1//OOP//BTL//Code//Source//Object//src//models//Data//historicalFigures.json")) {
+
             Object obj = jsonpanser.parse(reader);
             JSONArray Figures = (JSONArray) obj;
-            // System.out.println(period);
             for (int i = 0; i < Figures.size(); i++) {
-                JSONObject emp = (JSONObject) Figures.get(i);
-                JSONObject empObject = (JSONObject) emp.get("thông tin nhân vật");
+                JSONObject empObject = (JSONObject) Figures.get(i);
+                // System.out.println(emp.get("normalized era")) ;
+                ArrayList<String> era = (ArrayList<String>) empObject.get("normalized era");
                 String Mota = (String) empObject.get("thông tin chi tiết");
                 String ten = (String) empObject.get("tên");
                 String tenKhac = (String) empObject.get("tên khác");
@@ -92,35 +103,19 @@ public class test {
                 Date NgayMat = null;
                 String QueQuan = (String) empObject.get("Tỉnh thành");
                 String ThoiKy = (String) empObject.get("Thời kì");
+                String[] arr = era.get(0).split(" - ");
+                Integer start = Integer.valueOf(arr[0]);
+                Integer end = Integer.valueOf(arr[1]);
+                HistoricalFigure b = new HistoricalFigure(ten, tenKhac, NgaySinh, NgayMat, QueQuan, start, end,
+                        Mota, periodMap.get(start));
+                figures.add(b);
 
-                // Xu li nhung nhan vat sau cong nguyen
-                if (ThoiKy.equals("Nước Việt Nam mới")) {
-                    ThoiKy = "Nước Việt Nam mới (1945-nay)";
-                }
-                String[] arr = ThoiKy.split("[()]");
-                String[] arr2 = arr[1].split("-");
-                String[] arr3 = arr2[1].trim().split("\\s");
-                if (arr3.length == 2) {
-                    arr2[0] = "-" + arr2[0];
-                    arr2[1] = "-" + arr2[1];
-                }
-                int start = 0;
-                int end = 0;
-                for (String key : keys) {
-                    if (arr2[0].equals(key)) {
-                        HistoricalPeriod period = periodMap.get(key);
-                        HistoricalFigure b = new HistoricalFigure(ten, tenKhac, NgaySinh, NgayMat, QueQuan, start, end,
-                                Mota, period);
-                        figures.add(b);
-                    }
-                }
             }
             for (HistoricalFigure i : figures) {
-                if(i.getTen().equals("Nguyễn Văn Cừ")){
+                if (i.getTen().equals("Nguyễn Văn Cừ")) {
                     i.show();
                 }
             }
-
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {
