@@ -1,7 +1,7 @@
-package Object.HistoricalSite;
+package models.HistoricalSite;
 import java.util.Date;
 import java.time.LocalDate;
-import Object.HistoricEvent.*;
+import models.HistoricEvent.*;
 
 public class HistoricalSite {
     

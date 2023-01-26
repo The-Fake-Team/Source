@@ -1,34 +1,44 @@
-package Object.HistoricalPeriod;
+package models.HistoricalPeriod;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Date;
 
-import Object.HistoricalFigure.*;
+import models.HistoricalFigure.*;
 
 public class HistoricalPeriod {
     private String QuocHieu;
     private int thoiGianBatDau;
     private int thoiGianKetThuc;
-    private List<King> danhSachVua = new ArrayList<>();
-    
-    public HistoricalPeriod(String QuocHieu, int thoiGianBatDau, int thoiGianKetThuc) {
+
+    public HistoricalPeriod(String QuocHieu, int start, int end) {
         this.QuocHieu = QuocHieu;
-        this.thoiGianBatDau = thoiGianBatDau;
-        this.thoiGianKetThuc = thoiGianKetThuc;
+        this.thoiGianBatDau = start;
+        this.thoiGianKetThuc = end;
     }
 
-    public void addVua(King vua) {
-        danhSachVua.add(vua);
+    public HistoricalPeriod() {
+        this.QuocHieu = null;
+        this.thoiGianBatDau = 0;
+        this.thoiGianKetThuc = 0;
     }
-    public String getName()
-    {
+
+    public String getName() {
         return QuocHieu;
     }
+
     public int getThoiGianBatDau() {
         return thoiGianBatDau;
     }
+
     public int getThoiGianKetThuc() {
         return thoiGianKetThuc;
+    }
+
+    public void show() {
+        System.out.println("Quoc Hieu: " + QuocHieu);
+        System.out.println("Thoi Gian Bat Dau: " + thoiGianBatDau);
+        System.out.println("Thoi Gian Ket Thuc: " + thoiGianKetThuc);
     }
 
 }

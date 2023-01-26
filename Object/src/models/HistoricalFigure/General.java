@@ -1,12 +1,13 @@
-package Object.HistoricalFigure;
+package models.HistoricalFigure;
 
-import Object.HistoricalPeriod.*;
+import models.HistoricalPeriod.*;
+import java.util.Date;
 
 public class General extends HistoricalFigure {
 
-    public General(String ten, int NgaySinh, int NgayMat, String QueQuan, HistoricalPeriod TrieuDai) {
-        super(ten, NgaySinh, NgayMat, QueQuan, TrieuDai);
-        //TODO Auto-generated constructor stub
+    public General(String ten, String tenKhac, Date NgaySinh, Date NgayMat, String QueQuan, int start, int end,
+            String Mota, HistoricalPeriod period) {
+        super(ten, tenKhac, NgaySinh, NgayMat, QueQuan, start, end, Mota, period);
     }
-    
+
 }

@@ -1,7 +1,7 @@
-package Object.HistoricalFigure;
+package models.HistoricalFigure;
 
-
-import Object.HistoricalPeriod.*;
+import models.HistoricalPeriod.*;
+import java.util.Date;
 
 public class King extends HistoricalFigure {
     private String ThuyHieu;
@@ -10,41 +10,52 @@ public class King extends HistoricalFigure {
     private String Trivi;
     private HistoricalFigure TheThu;
 
-    public King(String ten, int NgaySinh, int NgayMat, String QueQuan, HistoricalPeriod TrieuDai, String ThuyHieu, String NienHieu, String MienHieu, String Trivi, HistoricalFigure TheThu) {
-        super(ten, NgaySinh, NgayMat, QueQuan, TrieuDai);
+    public King(String ten, String tenKhac, Date NgaySinh, Date NgayMat, String QueQuan, int start, int end,
+            String Mota, String ThuyHieu, String NienHieu, String MienHieu, String Trivi, HistoricalFigure TheThu, HistoricalPeriod period) {
+        super(ten, tenKhac, NgaySinh, NgayMat, QueQuan, start, end, Mota, period);
         this.ThuyHieu = ThuyHieu;
         this.NienHieu = NienHieu;
         this.MienHieu = MienHieu;
         this.Trivi = Trivi;
         this.TheThu = TheThu;
     }
-    public void setThuHieu(String ThuyHieu) {
+
+    public void setThuyHieu(String ThuyHieu) {
         this.ThuyHieu = ThuyHieu;
     }
+
     public void setNienHieu(String NienHieu) {
         this.NienHieu = NienHieu;
     }
+
     public void setMienHieu(String MienHieu) {
         this.MienHieu = MienHieu;
     }
+
     public void setTrivi(String Trivi) {
         this.Trivi = Trivi;
     }
+
     public void setTheThu(HistoricalFigure TheThu) {
         this.TheThu = TheThu;
     }
+
     public String getThuyHieu() {
         return ThuyHieu;
     }
+
     public String getNienHieu() {
         return NienHieu;
     }
+
     public String getMienHieu() {
         return MienHieu;
     }
+
     public String getTrivi() {
         return Trivi;
     }
+
     public HistoricalFigure getTheThu() {
         return TheThu;
     }

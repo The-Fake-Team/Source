@@ -1,9 +1,9 @@
-package Object.HistoricEvent;
+package models.HistoricEvent;
 
 import java.util.ArrayList;
 import java.util.List;
-import Object.HistoricalFigure.*;
-import Object.HistoricalPeriod.HistoricalPeriod;
+import models.HistoricalFigure.*;
+import models.HistoricalPeriod.HistoricalPeriod;
 
 import java.util.Date;
 import java.time.LocalDate;
