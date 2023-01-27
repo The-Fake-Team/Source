@@ -6,16 +6,21 @@ import java.util.Date;
 public class King extends HistoricalFigure {
     private String ThuyHieu;
     private String NienHieu;
-    private String MienHieu;
+    private String MieuHieu;
     private String Trivi;
-    private HistoricalFigure TheThu;
+    private String TheThu;
 
-    public King(String ten, String tenKhac, Date NgaySinh, Date NgayMat, String QueQuan, int start, int end,
-            String Mota, String ThuyHieu, String NienHieu, String MienHieu, String Trivi, HistoricalFigure TheThu, HistoricalPeriod period) {
-        super(ten, tenKhac, NgaySinh, NgayMat, QueQuan, start, end, Mota, period);
+    public King() {
+        super();
+    }
+
+    public King(String ten, String tenKhac, String NamSinhNamMat, String QueQuan,
+            String Mota, String ThuyHieu, String NienHieu, String MieuHieu, String Trivi, String TheThu,
+            HistoricalPeriod period) {
+        super(ten, tenKhac, NamSinhNamMat, QueQuan, Mota, period);
         this.ThuyHieu = ThuyHieu;
         this.NienHieu = NienHieu;
-        this.MienHieu = MienHieu;
+        this.MieuHieu = MieuHieu;
         this.Trivi = Trivi;
         this.TheThu = TheThu;
     }
@@ -28,15 +33,15 @@ public class King extends HistoricalFigure {
         this.NienHieu = NienHieu;
     }
 
-    public void setMienHieu(String MienHieu) {
-        this.MienHieu = MienHieu;
+    public void setMieuHieu(String MieuHieu) {
+        this.MieuHieu = MieuHieu;
     }
 
-    public void setTrivi(String Trivi) {
+    public void setTriVi(String Trivi) {
         this.Trivi = Trivi;
     }
 
-    public void setTheThu(HistoricalFigure TheThu) {
+    public void setTheThu(String TheThu) {
         this.TheThu = TheThu;
     }
 
@@ -48,16 +53,22 @@ public class King extends HistoricalFigure {
         return NienHieu;
     }
 
-    public String getMienHieu() {
-        return MienHieu;
+    public String getMieuHieu() {
+        return MieuHieu;
     }
 
     public String getTrivi() {
         return Trivi;
     }
 
-    public HistoricalFigure getTheThu() {
+    public String getTheThu() {
         return TheThu;
+    }
+
+    @Override
+    public String toString() {
+        return "King [MieuHieu=" + MieuHieu + ", NienHieu=" + NienHieu + ", TheThu=" + TheThu + ", ThuyHieu=" + ThuyHieu
+                + ", Trivi=" + Trivi + "]";
     }
 
 }

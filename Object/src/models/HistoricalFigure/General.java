@@ -5,9 +5,9 @@ import java.util.Date;
 
 public class General extends HistoricalFigure {
 
-    public General(String ten, String tenKhac, Date NgaySinh, Date NgayMat, String QueQuan, int start, int end,
+    public General(String ten, String tenKhac, String NamSinhNamMat, String QueQuan,
             String Mota, HistoricalPeriod period) {
-        super(ten, tenKhac, NgaySinh, NgayMat, QueQuan, start, end, Mota, period);
+        super(ten, tenKhac, NamSinhNamMat, QueQuan, Mota, period);
     }
 
 }
