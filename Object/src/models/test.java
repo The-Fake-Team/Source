@@ -9,6 +9,7 @@ import java.text.SimpleDateFormat;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
+import models.Data.*;
 
 import javax.sound.midi.SysexMessage;
 
@@ -47,43 +48,34 @@ public class test {
                 "D://TaiLieu//Nam3//Ky1//OOP//BTL//Code//Source//Object//src//models//Data//period.json")) {
             Object obj = jsonpanser.parse(reader);
             JSONArray period = (JSONArray) obj;
-            // Number a = null;
-            // Number b = null;
-            // System.out.println(period);
             for (int i = 0; i < period.size(); i++) {
                 JSONObject emp = (JSONObject) period.get(i);
                 String name = (String) emp.get("name");
                 Number a = (Number) emp.get("start");
                 Number b = (Number) emp.get("end");
-                if (a == null) {
-                    a = 0;
+                int start,end;
+                try{
+                    start = a.intValue();
                 }
-                int start = a.intValue();
-                if (b == null) {
-                    b = 2100;
+                catch(Exception e){
+                    start = 0;
                 }
-                int end = b.intValue();
+                try{  
+                    end = b.intValue();
+                }
+                catch(Exception e){
+                    end = 2100;
+                }
                 HistoricalPeriod period1 = new HistoricalPeriod(name, start, end);
                 periods.add(period1);
                 periodMap.put(start, period1);
 
             }
-
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
         }
-        // Set<String> keys = periodMap.keySet();
-        // for( String key : keys){
-        // System.out.println(key);
-        // }
-        // for (String key : keys) {
-        // periodMap.get(key).show();
-        // }
-        // for (HistoricalPeriod i : periods) {
-        // i.show();
-        // }
 
         // Đọc nhân vật lịch sử
         try (FileReader reader = new FileReader(
@@ -93,7 +85,6 @@ public class test {
             JSONArray Figures = (JSONArray) obj;
             for (int i = 0; i < Figures.size(); i++) {
                 JSONObject empObject = (JSONObject) Figures.get(i);
-                // System.out.println(emp.get("normalized era")) ;
                 ArrayList<String> era = (ArrayList<String>) empObject.get("normalized era");
                 String Mota = (String) empObject.get("thông tin chi tiết");
                 String ten = (String) empObject.get("tên");
@@ -102,7 +93,6 @@ public class test {
                 Date NgaySinh = null;
                 Date NgayMat = null;
                 String QueQuan = (String) empObject.get("Tỉnh thành");
-                String ThoiKy = (String) empObject.get("Thời kì");
                 String[] arr = era.get(0).split(" - ");
                 Integer start = Integer.valueOf(arr[0]);
                 Integer end = Integer.valueOf(arr[1]);
