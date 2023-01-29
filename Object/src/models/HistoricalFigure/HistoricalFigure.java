@@ -4,63 +4,92 @@ import java.util.Date;
 import models.HistoricalPeriod.HistoricalPeriod;
 
 public class HistoricalFigure {
-    private String ten;
-    private String tenKhac;
-    private String NamSinhNamMat;
-    private String QueQuan;
-    private String Mota;
+    private String Name;
+    private String OtherName;
+    private int BirthYear;
+    private int DeathYear;
+    private String BirthPlace;
+    private String Description;
     private HistoricalPeriod period;
 
-    public HistoricalFigure(String ten, String tenKhac, String NamSinhNamMat, String QueQuan,
-            String Mota, HistoricalPeriod period) {
-        this.ten = ten;
-        this.tenKhac = tenKhac;
-        this.QueQuan = QueQuan;
-        this.Mota = Mota;
+    public HistoricalFigure()
+    {}
+    public HistoricalFigure(String Name, String OtherName, int BirthYear, int DeathYear, String BirthPlace, String Description, HistoricalPeriod period)
+    {
+        this.Name = Name;
+        this.OtherName = OtherName;
+        this.BirthYear = BirthYear;
+        this.DeathYear = DeathYear;
+        this.BirthPlace = BirthPlace;
+        this.Description = Description;
         this.period = period;
     }
-
-    public HistoricalFigure() {
+    public void setName(String Name)
+    {
+        this.Name = Name;
     }
-
-    public void setTen(String ten) {
-        this.ten = ten;
+    public void setOtherName(String OtherName)
+    {
+        this.OtherName = OtherName;
     }
-    public void setTenKhac(String tenKhac) {
-        this.tenKhac = tenKhac;
+    public void setBirthYear(int BirthYear)
+    {
+        this.BirthYear = BirthYear;
     }
-    public void setNamSinhNamMat(String NamSinhNamMat) {
-        this.NamSinhNamMat = NamSinhNamMat;
+    public void setDeathYear(int DeathYear)
+    {
+        this.DeathYear = DeathYear;
     }
-    public void setQueQuan(String QueQuan) {
-        this.QueQuan = QueQuan;
+    public void setBirthPlace(String BirthPlace)
+    {
+        this.BirthPlace = BirthPlace;
     }
-    public void setMota(String Mota) {
-        this.Mota = Mota;
+    public void setDescription(String Description)
+    {
+        this.Description = Description;
     }
-    public void setPeriod(HistoricalPeriod period) {
+    public void setPeriod(HistoricalPeriod period)
+    {
         this.period = period;
     }
-    public String getTen() {
-        return ten;
+    public String getName()
+    {
+        return Name;
     }
-    public String getTenKhac() {
-        return tenKhac;
+    public String getOtherName()
+    {
+        return OtherName;
     }
-    public String getNamSinhNamMat() {
-        return NamSinhNamMat;
+    public int getBirthYear()
+    {
+        return BirthYear;
     }
-    public String getQueQuan() {
-        return QueQuan;
+    public int getDeathYear()
+    {
+        return DeathYear;
     }
-    public String getMota() {
-        return Mota;
+    public String getBirthPlace()
+    {
+        return BirthPlace;
     }
-    public HistoricalPeriod getPeriod() {
+    public String getDescription()
+    {
+        return Description;
+    }
+    public HistoricalPeriod getPeriod()
+    {
         return period;
     }
-    
-    public String toString() {
-        return ten;
+    public void show()
+    {
+        System.out.println("Name: " + Name);
+        System.out.println("Other Name: " + OtherName);
+        System.out.println("Birth Year: " + BirthYear);
+        System.out.println("Death Year: " + DeathYear);
+        System.out.println("Birth Place: " + BirthPlace);
+        System.out.println("Description: " + Description);
+        System.out.println("Period: " + period.getName());
     }
+
+    
 }

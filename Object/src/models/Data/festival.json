@@ -1,366 +1,366 @@
 [
     {
-        "festivals list": {
-            "date (lunar calendar)": "5/1",
-            "name": "Lễ hội Đống Đa",
-            "place": "Hà Nội, quận Đống Đa"
-        }
+      "date (lunar calendar)": "5/1",
+      "relatedCharacters": "Nguyễn Huệ",
+      "name": "Lễ hội Đống Đa",
+      "place": "Hà Nội, quận Đống Đa",
+      "firstHeldYear": ""
     },
     {
-        "festivals list": {
-            "date (lunar calendar)": "5/1",
-            "name": "Hội vật Liễu Đôi",
-            "place": "Hà Nam, huyện Thanh Liêm"
-        }
+      "date (lunar calendar)": "5/1",
+      "relatedCharacters": "",
+      "name": "Hội vật Liễu Đôi",
+      "place": "Hà Nam, huyện Thanh Liêm",
+      "firstHeldYear": ""
     },
     {
-        "festivals list": {
-            "date (lunar calendar)": "6/1",
-            "name": "hội Gióng Sóc Sơn",
-            "place": "Hà Nội, Sóc Sơn"
-        }
+      "date (lunar calendar)": "6/1",
+      "relatedCharacters": "Thánh Gióng",
+      "name": "hội Gióng Sóc Sơn",
+      "place": "Hà Nội, Sóc Sơn",
+      "firstHeldYear": "Nhà Tiền Lê"
     },
     {
-        "festivals list": {
-            "date (lunar calendar)": "6/1",
-            "name": "Lễ hội Cổ Loa",
-            "place": "Hà Nội, Đông Anh"
-        }
+      "date (lunar calendar)": "6/1",
+      "relatedCharacters": "An Dương Vương",
+      "name": "Lễ hội Cổ Loa",
+      "place": "Hà Nội, Đông Anh",
+      "firstHeldYear": ""
     },
     {
-        "festivals list": {
-            "date (lunar calendar)": "6/1",
-            "name": "Lễ hội chùa Bái Đính",
-            "place": "Ninh Bình, Gia Viễn"
-        }
+      "date (lunar calendar)": "6/1",
+      "relatedCharacters": "",
+      "name": "Lễ hội chùa Bái Đính",
+      "place": "Ninh Bình, Gia Viễn",
+      "firstHeldYear": "Nhà Lý"
     },
     {
-        "festivals list": {
-            "date (lunar calendar)": "7/1",
-            "name": "Chợ Viềng",
-            "place": "Nam Định, Vụ Bản"
-        }
+      "date (lunar calendar)": "7/1",
+      "relatedCharacters": "",
+      "name": "Chợ Viềng",
+      "place": "Nam Định, Vụ Bản",
+      "firstHeldYear": "Nhà Trần"
     },
     {
-        "festivals list": {
-            "date (lunar calendar)": "7/1",
-            "name": "Lễ hội đầm Ô Loan",
-            "place": "Phú Yên, Ô Loan"
-        }
+      "date (lunar calendar)": "7/1",
+      "relatedCharacters": "",
+      "name": "Lễ hội đầm Ô Loan",
+      "place": "Phú Yên, Ô Loan",
+      "firstHeldYear": ""
     },
     {
-        "festivals list": {
-            "date (lunar calendar)": "9/1",
-            "name": "Đại lễ Đức Chí Tôn",
-            "place": "Tây Ninh, Đạo Cao Đài"
-        }
+      "date (lunar calendar)": "9/1",
+      "relatedCharacters": "Đức Chí Tôn",
+      "name": "Đại lễ Đức Chí Tôn",
+      "place": "Tây Ninh, Đạo Cao Đài",
+      "firstHeldYear": ""
     },
     {
-        "festivals list": {
-            "date (lunar calendar)": "10/1",
-            "name": "Hội xuân Yên Tử",
-            "place": "Quảng Ninh, núi Yên Tử"
-        }
+      "date (lunar calendar)": "10/1",
+      "relatedCharacters": "Trần Nhân Tông",
+      "name": "Hội xuân Yên Tử",
+      "place": "Quảng Ninh, núi Yên Tử",
+      "firstHeldYear": "thế kỷ 14"
     },
     {
-        "festivals list": {
-            "date (lunar calendar)": "13/1",
-            "name": "Hội phết Hiền Quan",
-            "place": "Phú Thọ, huyện Tam Nông"
-        }
+      "date (lunar calendar)": "13/1",
+      "relatedCharacters": "Thiều Hoa công chúa, Mộc trang đại vương",
+      "name": "Hội phết Hiền Quan",
+      "place": "Phú Thọ, huyện Tam Nông",
+      "firstHeldYear": "gần đây"
     },
     {
-        "festivals list": {
-            "date (lunar calendar)": "13/1",
-            "name": "Hội Lim",
-            "place": "Bắc Ninh, huyện Tiên Du"
-        }
+      "date (lunar calendar)": "13/1",
+      "relatedCharacters": "Nguyễn Đình Diễn",
+      "name": "Hội Lim",
+      "place": "Bắc Ninh, huyện Tiên Du",
+      "firstHeldYear": "Nhà Lê sơ"
     },
     {
-        "festivals list": {
-            "date (lunar calendar)": "15/1",
-            "name": "Lễ hội chùa Hương",
-            "place": "Hà Nội, huyện Mỹ Đức"
-        }
+      "date (lunar calendar)": "6/1",
+      "relatedCharacters": "Quan Thế Âm Bồ Tát",
+      "name": "Lễ hội chùa Hương",
+      "place": "Hà Nội, huyện Mỹ Đức",
+      "firstHeldYear": ""
     },
     {
-        "festivals list": {
-            "date (lunar calendar)": "15/1",
-            "name": "Hội chùa Côn Sơn",
-            "place": "Hải Dương, huyện Chí Linh"
-        }
+      "date (lunar calendar)": "15/1",
+      "relatedCharacters": "Huyền Quang, Nguyễn Trãi",
+      "name": "Hội chùa Côn Sơn",
+      "place": "Hải Dương, huyện Chí Linh",
+      "firstHeldYear": "từ thế kỷ 14"
     },
     {
-        "festivals list": {
-            "date (lunar calendar)": "15/1",
-            "name": "Lễ hội làm chay",
-            "place": "Long An, thị trấn Tầm Vu"
-        }
+      "date (lunar calendar)": "14/1",
+      "relatedCharacters": "Đỗ Tường Phong, Đỗ Tường Tự",
+      "name": "Lễ hội làm chay",
+      "place": "Long An, thị trấn Tầm Vu",
+      "firstHeldYear": "năm 1878"
     },
     {
-        "festivals list": {
-            "date (lunar calendar)": "15/1",
-            "name": "Tết Nguyên tiêu",
-            "place": ""
-        }
+      "date (lunar calendar)": "15/1",
+      "relatedCharacters": "",
+      "name": "Tết Nguyên tiêu",
+      "place": "Nhiều quốc gia",
+      "firstHeldYear": ""
     },
     {
-        "festivals list": {
-            "date (lunar calendar)": "16/1",
-            "name": "Lễ hội chọi trâu",
-            "place": "Vĩnh Phúc, huyện Lập Thạch"
-        }
+      "date (lunar calendar)": "16/1",
+      "relatedCharacters": "",
+      "name": "Lễ hội chọi trâu",
+      "place": "Vĩnh Phúc, huyện Lập Thạch",
+      "firstHeldYear": "thế kỷ 2 trước CN"
     },
     {
-        "festivals list": {
-            "date (lunar calendar)": "",
-            "name": "Hội Xuân núi Bà",
-            "place": "Tây Ninh, Núi Bà Đen"
-        }
+      "date (lunar calendar)": "4/1",
+      "relatedCharacters": "Linh Sơn Thánh Mẫu",
+      "name": "Hội Xuân núi Bà",
+      "place": "Tây Ninh, Núi Bà Đen",
+      "firstHeldYear": ""
     },
     {
-        "festivals list": {
-            "date (lunar calendar)": "",
-            "name": "Lễ hội đình Yên Phụ",
-            "place": "Hà Nội, Hồ Tây"
-        }
+      "date (lunar calendar)": "10/2",
+      "relatedCharacters": "Uy Linh Lang, Vương Duy, Vương Ba",
+      "name": "Lễ hội đình Yên Phụ",
+      "place": "Hà Nội, Hồ Tây",
+      "firstHeldYear": "thế kỷ 17"
     },
     {
-        "festivals list": {
-            "date (lunar calendar)": "",
-            "name": "Lễ hội Miếu Mạch Lũng",
-            "place": "Hà Nội, Đông Anh"
-        }
+      "date (lunar calendar)": "10/2",
+      "relatedCharacters": "Minh Mỗ Đại vương Thượng đẳng thần",
+      "name": "Lễ hội Miếu Mạch Lũng",
+      "place": "Hà Nội, Đông Anh",
+      "firstHeldYear": ""
     },
     {
-        "festivals list": {
-            "date (lunar calendar)": "",
-            "name": "Lễ hội Quán Thế Âm",
-            "place": "Đà Nẵng, Ngũ Hành Sơn"
-        }
+      "date (lunar calendar)": "19/2",
+      "relatedCharacters": "Quán Thế Âm Bồ Tát",
+      "name": "Lễ hội Quán Thế Âm",
+      "place": "Đà Nẵng, Ngũ Hành Sơn",
+      "firstHeldYear": "năm 1960"
     },
     {
-        "festivals list": {
-            "date (lunar calendar)": "",
-            "name": "Tiết Thanh minh",
-            "place": ""
-        }
+      "date (lunar calendar)": "",
+      "relatedCharacters": "",
+      "name": "Tiết Thanh minh",
+      "place": "",
+      "firstHeldYear": "Nhà Thanh"
     },
     {
-        "festivals list": {
-            "date (lunar calendar)": "",
-            "name": "Hội đua voi",
-            "place": "Tây Nguyên"
-        }
+      "date (lunar calendar)": "",
+      "relatedCharacters": "",
+      "name": "Hội đua voi",
+      "place": "Tây Nguyên",
+      "firstHeldYear": ""
     },
     {
-        "festivals list": {
-            "date (lunar calendar)": "3/3",
-            "name": "Tết Hàn thực",
-            "place": ""
-        }
+      "date (lunar calendar)": "3/3",
+      "relatedCharacters": "Giới Tử Thôi, Tấn Văn Công",
+      "name": "Tết Hàn thực",
+      "place": "",
+      "firstHeldYear": "Nhà Lê"
     },
     {
-        "festivals list": {
-            "date (lunar calendar)": "3/3",
-            "name": "Hội Phủ Giầy",
-            "place": "Nam Định, Vụ Bản"
-        }
+      "date (lunar calendar)": "3/3",
+      "relatedCharacters": "Mẫu Liễu Hạnh",
+      "name": "Hội Phủ Giầy",
+      "place": "Nam Định, Vụ Bản",
+      "firstHeldYear": ""
     },
     {
-        "festivals list": {
-            "date (lunar calendar)": "",
-            "name": "Lễ hội Điện Hòn Chén",
-            "place": "Thừa Thiên Huế, huyện Hương Trà"
-        }
+      "date (lunar calendar)": "2/3",
+      "relatedCharacters": "Thiên Y A Na",
+      "name": "Lễ hội Điện Hòn Chén",
+      "place": "Thừa Thiên Huế, huyện Hương Trà",
+      "firstHeldYear": "thế kỷ 16"
     },
     {
-        "festivals list": {
-            "date (lunar calendar)": "",
-            "name": "Lễ hội Chùa Thầy",
-            "place": "Hà Tây, Quốc Oai"
-        }
+      "date (lunar calendar)": "3/3",
+      "relatedCharacters": "Từ Đạo Hạnh",
+      "name": "Lễ hội Chùa Thầy",
+      "place": "Hà Tây, Quốc Oai",
+      "firstHeldYear": ""
     },
     {
-        "festivals list": {
-            "date (lunar calendar)": "",
-            "name": "Lễ hội Hoa Lư",
-            "place": "Ninh Bình, huyện Hoa Lư"
-        }
+      "date (lunar calendar)": "6/3",
+      "relatedCharacters": "Đinh Bộ Lĩnh",
+      "name": "Lễ hội Hoa Lư",
+      "place": "Ninh Bình, huyện Hoa Lư",
+      "firstHeldYear": "Nhà Lý"
     },
     {
-        "festivals list": {
-            "date (lunar calendar)": "14/3",
-            "name": "Lễ hội đền Thái Vi",
-            "place": "Ninh Bình, huyện Hoa Lư"
-        }
+      "date (lunar calendar)": "14/3",
+      "relatedCharacters": "Trần Thái Tông, Trần Thánh Tông, Trần Nhân Tông, Trần Anh Tông, Hiển Từ Hoàng Thái Hậu",
+      "name": "Lễ hội đền Thái Vi",
+      "place": "Ninh Bình, huyện Hoa Lư",
+      "firstHeldYear": "Nhà Trần"
     },
     {
-        "festivals list": {
-            "date (lunar calendar)": "8/3",
-            "name": "Lễ hội Nam Trì",
-            "place": "Hưng Yên, huyện Ân Thi"
-        }
+      "date (lunar calendar)": "8/3",
+      "relatedCharacters": "Lang Công, Bảo Công, Công chúa Hùng vương Lâu nương",
+      "name": "Lễ hội Nam Trì",
+      "place": "Hưng Yên, huyện Ân Thi",
+      "firstHeldYear": "Thế kỉ 2 trước CN"
     },
     {
-        "festivals list": {
-            "date (lunar calendar)": "10/3",
-            "name": "Giỗ tổ Hùng Vương",
-            "place": "Nhiều nơi"
-        }
+      "date (lunar calendar)": "10/3",
+      "relatedCharacters": "Vua Hùng",
+      "name": "Giỗ tổ Hùng Vương",
+      "place": "Nhiều nơi ở Việt Nam",
+      "firstHeldYear": "Nhà Đinh"
     },
     {
-        "festivals list": {
-            "date (lunar calendar)": "",
-            "name": "Lễ hội đền Mẫu",
-            "place": "Hưng Yên, Phố Hiến"
-        }
+      "date (lunar calendar)": "10/3",
+      "relatedCharacters": "Dương Quý Phi",
+      "name": "Lễ hội đền Mẫu",
+      "place": "Hưng Yên, Phố Hiến",
+      "firstHeldYear": ""
     },
     {
-        "festivals list": {
-            "date (lunar calendar)": "",
-            "name": "Lễ hội Làng cá Cát Bà",
-            "place": "Hải Phòng, huyện Cát Hải, Thị trấn Cát Bà"
-        }
+      "date (lunar calendar)": "",
+      "relatedCharacters": "Hồ Chí Minh",
+      "name": "Lễ hội Làng cá Cát Bà",
+      "place": "Hải Phòng, huyện Cát Hải, Thị trấn Cát Bà",
+      "firstHeldYear": "1/4/1958"
     },
     {
-        "festivals list": {
-            "date (lunar calendar)": "7/4",
-            "name": "Hội Gióng Phù Đổng",
-            "place": "Hà Nội, huyện Gia Lâm"
-        }
+      "date (lunar calendar)": "7/4",
+      "relatedCharacters": "Thánh Gióng",
+      "name": "Hội Gióng Phù Đổng",
+      "place": "Hà Nội, huyện Gia Lâm",
+      "firstHeldYear": "Thế kỉ 11 đời Lý Thái Tổ"
     },
     {
-        "festivals list": {
-            "date (lunar calendar)": "8/4",
-            "name": "Lễ Phật Đản",
-            "place": ""
-        }
+      "date (lunar calendar)": "8/4",
+      "relatedCharacters": "Phật Tất Đạt Đa",
+      "name": "Lễ Phật Đản",
+      "place": "Nhiều quốc gia",
+      "firstHeldYear": "624 trước CN"
     },
     {
-        "festivals list": {
-            "date (lunar calendar)": "15/4",
-            "name": "Lễ hội Chol Chnam Thmay",
-            "place": "Nam Bộ"
-        }
+      "date (lunar calendar)": "14/4",
+      "relatedCharacters": "",
+      "name": "Lễ hội Chol Chnam Thmay",
+      "place": "Nam Bộ",
+      "firstHeldYear": ""
     },
     {
-        "festivals list": {
-            "date (lunar calendar)": "19/3",
-            "name": "Lễ khao lề thế lính",
-            "place": "Quảng Ngãi, huyện Lý Sơn"
-        }
+      "date (lunar calendar)": "18/3",
+      "relatedCharacters": "",
+      "name": "Lễ khao lề thế lính",
+      "place": "Quảng Ngãi, huyện Lý Sơn",
+      "firstHeldYear": ""
     },
     {
-        "festivals list": {
-            "date (lunar calendar)": "24/4",
-            "name": "Lễ hội miếu Bà Chúa Xứ",
-            "place": "An Giang, Châu Đốc"
-        }
+      "date (lunar calendar)": "23/4",
+      "relatedCharacters": "Bà Chúa Xứ",
+      "name": "Lễ hội miếu Bà Chúa Xứ",
+      "place": "Miếu Bà Chúa Xứ, Núi Sam, An Giang, Châu Đốc",
+      "firstHeldYear": ""
     },
     {
-        "festivals list": {
-            "date (lunar calendar)": "5/5",
-            "name": "Tết Đoan ngọ",
-            "place": "Hà Nội"
-        }
+      "date (lunar calendar)": "5/5",
+      "relatedCharacters": "",
+      "name": "Tết Đoan ngọ",
+      "place": "Nhiều quốc gia",
+      "firstHeldYear": ""
     },
     {
-        "festivals list": {
-            "date (lunar calendar)": "7/7",
-            "name": "Thất Tịch",
-            "place": ""
-        }
+      "date (lunar calendar)": "7/7",
+      "relatedCharacters": "Ngưu Lang, Chức Nữ",
+      "name": "Thất Tịch",
+      "place": "Nhiều quốc gia",
+      "firstHeldYear": ""
     },
     {
-        "festivals list": {
-            "date (lunar calendar)": "15/7",
-            "name": "Lễ Vu Lan, Tết Trung Nguyên",
-            "place": ""
-        }
+      "date (lunar calendar)": "15/7",
+      "relatedCharacters": "Bồ tát Mục Liên",
+      "name": "Lễ Vu Lan, Tết Trung Nguyên",
+      "place": "Nhiều quốc gia",
+      "firstHeldYear": ""
     },
     {
-        "festivals list": {
-            "date (lunar calendar)": "",
-            "name": "Lễ hội Nghinh Ông (Quan Thánh Đế Quân)",
-            "place": "Phan Thiết (Bình Thuận)"
-        }
+      "date (lunar calendar)": "",
+      "relatedCharacters": "",
+      "name": "Lễ hội Nghinh Ông (Quan Thánh Đế Quân)",
+      "place": "Phan Thiết (Bình Thuận)",
+      "firstHeldYear": ""
     },
     {
-        "festivals list": {
-            "date (lunar calendar)": "1/8",
-            "name": "Lễ hội Katê",
-            "place": "Bình Thuận"
-        }
+      "date (lunar calendar)": "",
+      "relatedCharacters": "",
+      "name": "Lễ hội Katê",
+      "place": "Bình Thuận",
+      "firstHeldYear": ""
     },
     {
-        "festivals list": {
-            "date (lunar calendar)": "9/8",
-            "name": "Lễ hội chọi trâu",
-            "place": "Hải Phòng, Đồ Sơn"
-        }
+      "date (lunar calendar)": "9/8",
+      "relatedCharacters": "",
+      "name": "Lễ hội chọi trâu",
+      "place": "Hải Phòng, Đồ Sơn",
+      "firstHeldYear": ""
     },
     {
-        "festivals list": {
-            "date (lunar calendar)": "15/8",
-            "name": "Tết Trung Thu",
-            "place": ""
-        }
+      "date (lunar calendar)": "15/8",
+      "relatedCharacters": "Hằng Nga, Hậu Nghệ, Đường Minh Hoàng, Chú Cuội",
+      "name": "Tết Trung Thu",
+      "place": "Nhiều quốc gia",
+      "firstHeldYear": "Nhà Đường"
     },
     {
-        "festivals list": {
-            "date (lunar calendar)": "",
-            "name": "Hội Đền Kiếp Bạc",
-            "place": "Hải Dương, huyện Chí Linh"
-        }
+      "date (lunar calendar)": "15/8",
+      "relatedCharacters": "Trần Hưng Đạo",
+      "name": "Hội Đền Kiếp Bạc",
+      "place": "Hải Dương, huyện Chí Linh",
+      "firstHeldYear": ""
     },
     {
-        "festivals list": {
-            "date (lunar calendar)": "",
-            "name": "Hội Yến Diêu Trì",
-            "place": "Tây Ninh, Tòa Thánh Tây Ninh"
-        }
+      "date (lunar calendar)": "15/8",
+      "relatedCharacters": "Cao Quỳnh Cư, Phạm Công Tắc, Cao Hoài Sang, Nguyễn Thị Hiếu",
+      "name": "Hội Yến Diêu Trì",
+      "place": "Tây Ninh, Tòa Thánh Tây Ninh",
+      "firstHeldYear": "năm 1925"
     },
     {
-        "festivals list": {
-            "date (lunar calendar)": "",
-            "name": "Lễ hội Nghinh Ông (Cá Voi)",
-            "place": "Bình Thuận, Tiền Giang"
-        }
+      "date (lunar calendar)": "",
+      "relatedCharacters": "",
+      "name": "Lễ hội Nghinh Ông (Cá Voi)",
+      "place": "Bình Thuận, Tiền Giang",
+      "firstHeldYear": ""
     },
     {
-        "festivals list": {
-            "date (lunar calendar)": "",
-            "name": "Lễ hội AHDT Nguyễn Trung Trực",
-            "place": "Rạch Giá, Kiên Giang"
-        }
+      "date (lunar calendar)": "",
+      "relatedCharacters": "Nguyễn Trung Trực",
+      "name": "Lễ hội AHDT Nguyễn Trung Trực",
+      "place": "Rạch Giá, Kiên Giang",
+      "firstHeldYear": ""
     },
     {
-        "festivals list": {
-            "date (lunar calendar)": "",
-            "name": "Lễ hội Chùa Keo",
-            "place": "Thái Bình, Vũ Thư"
-        }
+      "date (lunar calendar)": "13/9",
+      "relatedCharacters": "Thiền sư Không Lộ",
+      "name": "Lễ hội Chùa Keo",
+      "place": "Thái Bình, Vũ Thư",
+      "firstHeldYear": "Nhà Lý"
     },
     {
-        "festivals list": {
-            "date (lunar calendar)": "15/10",
-            "name": "Tết cơm mới",
-            "place": ""
-        }
+      "date (lunar calendar)": "15/10",
+      "relatedCharacters": "",
+      "name": "Tết cơm mới",
+      "place": "Nhiều quốc gia",
+      "firstHeldYear": ""
     },
     {
-        "festivals list": {
-            "date (lunar calendar)": "13/11",
-            "name": "Lễ hội đền Nguyễn Công Trứ",
-            "place": "Ninh Bình, huyện Kim Sơn"
-        }
+      "date (lunar calendar)": "13/11",
+      "relatedCharacters": "Nguyễn Công Trứ",
+      "name": "Lễ hội đền Nguyễn Công Trứ",
+      "place": "Ninh Bình, huyện Kim Sơn",
+      "firstHeldYear": "Nhà Nguyễn"
     },
     {
-        "festivals list": {
-            "date (lunar calendar)": "23/12",
-            "name": "Tiễn Ông Táo về trời",
-            "place": ""
-        }
+      "date (lunar calendar)": "23/12",
+      "relatedCharacters": "Thổ Công, Thổ địa, Thổ kỳ",
+      "name": "Tiễn Ông Táo về trời",
+      "place": "Nhiều quốc gia",
+      "firstHeldYear": ""
     }
-]
+  ]

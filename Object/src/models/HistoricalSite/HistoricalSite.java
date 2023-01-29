@@ -1,22 +1,23 @@
 package models.HistoricalSite;
 import java.util.Date;
 import java.time.LocalDate;
-import models.HistoricEvent.*;
 
 public class HistoricalSite {
     
-    private String Ten;
-    private Date NamXayDung;
-    private String DiaDiem;
-    private HistoricEvent SuKienLienQuan;
-    private String MoTa;
+    private String Name;
+    private Date recognitionDate;
+    private String Place;
+    private String Description;
 
-    public HistoricalSite(String Ten, Date NamXayDung, String DiaDiem, HistoricEvent SuKienLienQuan, String MoTa) {
-        this.Ten = Ten;
-        this.NamXayDung = NamXayDung;
-        this.DiaDiem = DiaDiem;
-        this.SuKienLienQuan = SuKienLienQuan;
-        this.MoTa = MoTa;
+    public HistoricalSite() {
     }
+    public HistoricalSite(String Name, Date recognitionDate, String Place, String Description) {
+        this.Name = Name;
+        this.recognitionDate = recognitionDate;
+        this.Place = Place;
+        this.Description = Description;
+    }
+
+
 }
 

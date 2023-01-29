@@ -8,63 +8,99 @@ import models.HistoricalPeriod.HistoricalPeriod;
 import java.util.Date;
 import java.time.LocalDate;
 
+public class HistoricEvent<T> {
+    private String Name;
+    private int Start;
+    private int End;
+    private String Reference;
+    private String Detail;
+    private ArrayList<String> RelatedSites = new ArrayList<String>();
+    private ArrayList<T> RelatedFigures = new ArrayList<T>();
 
-
-public class HistoricEvent {
-    private String Ten;
-    private Date ThoiGianBatDau;
-    private Date ThoiGianKetThuc;
-    private List<HistoricalFigure> NhanVatLienQuan = new ArrayList<>();
-    private String MoTa;
-
-    public HistoricEvent(String Ten, Date ThoiGianBatDau, Date ThoiGianKetThuc, List<HistoricalFigure> NhanVatLienQuan,
-            String MoTa) {
-        this.Ten = Ten;
-        this.ThoiGianBatDau = ThoiGianBatDau;
-        this.ThoiGianKetThuc = ThoiGianKetThuc;
-        this.NhanVatLienQuan = NhanVatLienQuan;
-        this.MoTa = MoTa;
+    public HistoricEvent() {
     }
 
-    public void setTen(String Ten) {
-        this.Ten = Ten;
+    public HistoricEvent(String Name, int Start, int End, String Reference, String Detail,
+            ArrayList<String> RelatedSites, ArrayList<T> RelatedFigures) {
+        this.Name = Name;
+        this.Start = Start;
+        this.End = End;
+        this.Reference = Reference;
+        this.Detail = Detail;
+        this.RelatedSites = RelatedSites;
+        this.RelatedFigures = RelatedFigures;
     }
 
-    public void setThoiGianBatDau(Date ThoiGianBatDau) {
-        this.ThoiGianBatDau = ThoiGianBatDau;
+    public void setName(String Name) {
+        this.Name = Name;
     }
 
-    public void setThoiGianKetThuc(Date ThoiGianKetThuc) {
-        this.ThoiGianKetThuc = ThoiGianKetThuc;
+    public void setStart(int Start) {
+        this.Start = Start;
     }
 
-    public void setNhanVatLienQuan(List<HistoricalFigure> NhanVatLienQuan) {
-        this.NhanVatLienQuan = NhanVatLienQuan;
+    public void setEnd(int End) {
+        this.End = End;
     }
 
-    public void setMoTa(String MoTa) {
-        this.MoTa = MoTa;
+    public void setReference(String Reference) {
+        this.Reference = Reference;
     }
 
-    public String getTen() {
-        return Ten;
+    public void setDetail(String Detail) {
+        this.Detail = Detail;
     }
 
-    public Date getThoiGianBatDau() {
-        return ThoiGianBatDau;
+    public void setRelatedSites(ArrayList<String> RelatedSites) {
+        this.RelatedSites = RelatedSites;
     }
 
-    public Date getThoiGianKetThuc() {
-        return ThoiGianKetThuc;
+    public void setRelatedFigures(ArrayList<T> RelatedFigures) {
+        this.RelatedFigures = RelatedFigures;
     }
 
-    public List<HistoricalFigure> getNhanVatLienQuan() {
-        return NhanVatLienQuan;
+    public String getName() {
+        return Name;
     }
 
-    public String getMoTa() {
-        return MoTa;
+    public int getStart() {
+        return Start;
     }
 
+    public int getEnd() {
+        return End;
+    }
+
+    public String getReference() {
+        return Reference;
+    }
+
+    public String getDetail() {
+        return Detail;
+    }
+
+    public ArrayList<String> getRelatedSites() {
+        return RelatedSites;
+    }
+
+    public ArrayList<T> getRelatedFigures() {
+        return RelatedFigures;
+    }
+
+    public void addRelatedSite(String RelatedSite) {
+        RelatedSites.add(RelatedSite);
+    }
+
+    public void removeRelatedSite(String RelatedSite) {
+        RelatedSites.remove(RelatedSite);
+    }
+
+    public void addRelatedFigure(T RelatedFigure) {
+        RelatedFigures.add(RelatedFigure);
+    }
+
+    public void removeRelatedFigure(T RelatedFigure) {
+        RelatedFigures.remove(RelatedFigure);
+    }
 
 }

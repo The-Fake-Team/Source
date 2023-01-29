@@ -9,22 +9,18 @@ public class King extends HistoricalFigure {
     private String MieuHieu;
     private String Trivi;
     private String TheThu;
+    private String HoangDe;
 
     public King() {
         super();
     }
 
-    public King(String ten, String tenKhac, String NamSinhNamMat, String QueQuan,
-            String Mota, String ThuyHieu, String NienHieu, String MieuHieu, String Trivi, String TheThu,
+    public King(String Name, String OtherName, int BirthYear, int DeathYear, String BirthPlace, String Description,
             HistoricalPeriod period) {
-        super(ten, tenKhac, NamSinhNamMat, QueQuan, Mota, period);
-        this.ThuyHieu = ThuyHieu;
-        this.NienHieu = NienHieu;
-        this.MieuHieu = MieuHieu;
-        this.Trivi = Trivi;
-        this.TheThu = TheThu;
-    }
+        super(Name, OtherName, BirthYear, DeathYear, BirthPlace, Description, period);
 
+    }
+    
     public void setThuyHieu(String ThuyHieu) {
         this.ThuyHieu = ThuyHieu;
     }
@@ -37,12 +33,16 @@ public class King extends HistoricalFigure {
         this.MieuHieu = MieuHieu;
     }
 
-    public void setTriVi(String Trivi) {
+    public void setTrivi(String Trivi) {
         this.Trivi = Trivi;
     }
 
     public void setTheThu(String TheThu) {
         this.TheThu = TheThu;
+    }
+
+    public void setHoangDe(String HoangDe) {
+        this.HoangDe = HoangDe;
     }
 
     public String getThuyHieu() {
@@ -63,6 +63,10 @@ public class King extends HistoricalFigure {
 
     public String getTheThu() {
         return TheThu;
+    }
+
+    public String getHoangDe() {
+        return HoangDe;
     }
 
     @Override
