@@ -16,12 +16,11 @@ public class Festival<T> {
 
     public Festival() {
     }
-    public Festival(String Name, Date Date, String Place, String FirstHeldYear, ArrayList<T> RelatedCharacters) {
+    public Festival(String Name, Date Date, String Place, String FirstHeldYear) {
         this.Name = Name;
         this.Date = Date;
         this.Place = Place;
         this.FirstHeldYear = FirstHeldYear;
-        this.RelatedCharacters = RelatedCharacters;
     }
 
     public void setName(String Name) {
@@ -51,13 +50,13 @@ public class Festival<T> {
     public String getFirstHeldYear() {
         return FirstHeldYear;
     }
-    public ArrayList<T> getRelatedCharacters() {
+    public ArrayList<T> getRelatedFigures() {
         return RelatedCharacters;
     }
-    public void addRelatedCharacter(T RelatedCharacter) {
+    public void addRelatedFigure(T RelatedCharacter) {
         RelatedCharacters.add(RelatedCharacter);
     }
-    public void removeRelatedCharacter(T RelatedCharacter) {
+    public void removeRelatedFigure(T RelatedCharacter) {
         RelatedCharacters.remove(RelatedCharacter);
     }
     public void printRelatedCharacters() {

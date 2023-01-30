@@ -10,49 +10,44 @@ import java.time.LocalDate;
 
 public class HistoricEvent<T> {
     private String Name;
-    private int Start;
-    private int End;
+    private int StartTime;
+    private int EndTime;
     private String Reference;
-    private String Detail;
-    private ArrayList<String> RelatedSites = new ArrayList<String>();
+    private String Description;
+    private String RelatedSites;
     private ArrayList<T> RelatedFigures = new ArrayList<T>();
 
     public HistoricEvent() {
     }
 
-    public HistoricEvent(String Name, int Start, int End, String Reference, String Detail,
-            ArrayList<String> RelatedSites, ArrayList<T> RelatedFigures) {
+    public HistoricEvent(String Name, int StartTime, int EndTime, String Reference, String Description,
+            String RelatedSites) {
         this.Name = Name;
-        this.Start = Start;
-        this.End = End;
+        this.StartTime = StartTime;
+        this.EndTime = EndTime;
         this.Reference = Reference;
-        this.Detail = Detail;
+        this.Description = Description;
         this.RelatedSites = RelatedSites;
-        this.RelatedFigures = RelatedFigures;
     }
 
     public void setName(String Name) {
         this.Name = Name;
     }
 
-    public void setStart(int Start) {
-        this.Start = Start;
+    public void setStartTime(int StartTime) {
+        this.StartTime = StartTime;
     }
 
-    public void setEnd(int End) {
-        this.End = End;
+    public void setEndTime(int EndTime) {
+        this.EndTime = EndTime;
     }
 
     public void setReference(String Reference) {
         this.Reference = Reference;
     }
 
-    public void setDetail(String Detail) {
-        this.Detail = Detail;
-    }
-
-    public void setRelatedSites(ArrayList<String> RelatedSites) {
-        this.RelatedSites = RelatedSites;
+    public void setDescription(String Description) {
+        this.Description = Description;
     }
 
     public void setRelatedFigures(ArrayList<T> RelatedFigures) {
@@ -63,36 +58,28 @@ public class HistoricEvent<T> {
         return Name;
     }
 
-    public int getStart() {
-        return Start;
+    public int getStartTime() {
+        return StartTime;
     }
 
-    public int getEnd() {
-        return End;
+    public int getEndTime() {
+        return EndTime;
     }
 
     public String getReference() {
         return Reference;
     }
 
-    public String getDetail() {
-        return Detail;
+    public String getDescription() {
+        return Description;
     }
 
-    public ArrayList<String> getRelatedSites() {
+    public String getRelatedSites() {
         return RelatedSites;
     }
 
     public ArrayList<T> getRelatedFigures() {
         return RelatedFigures;
-    }
-
-    public void addRelatedSite(String RelatedSite) {
-        RelatedSites.add(RelatedSite);
-    }
-
-    public void removeRelatedSite(String RelatedSite) {
-        RelatedSites.remove(RelatedSite);
     }
 
     public void addRelatedFigure(T RelatedFigure) {

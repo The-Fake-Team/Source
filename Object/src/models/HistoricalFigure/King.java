@@ -7,7 +7,8 @@ public class King extends HistoricalFigure {
     private String ThuyHieu;
     private String NienHieu;
     private String MieuHieu;
-    private String Trivi;
+    private int StartTriVi;
+    private int EndTriVi;
     private String TheThu;
     private String HoangDe;
 
@@ -20,7 +21,7 @@ public class King extends HistoricalFigure {
         super(Name, OtherName, BirthYear, DeathYear, BirthPlace, Description, period);
 
     }
-    
+
     public void setThuyHieu(String ThuyHieu) {
         this.ThuyHieu = ThuyHieu;
     }
@@ -33,12 +34,11 @@ public class King extends HistoricalFigure {
         this.MieuHieu = MieuHieu;
     }
 
-    public void setTrivi(String Trivi) {
-        this.Trivi = Trivi;
+    public void setStartTriVi(int StartTriVi) {
+        this.StartTriVi = StartTriVi;
     }
-
-    public void setTheThu(String TheThu) {
-        this.TheThu = TheThu;
+    public void setEndTriVi(int EndTriVi) {
+        this.EndTriVi = EndTriVi;
     }
 
     public void setHoangDe(String HoangDe) {
@@ -57,10 +57,12 @@ public class King extends HistoricalFigure {
         return MieuHieu;
     }
 
-    public String getTrivi() {
-        return Trivi;
+    public int getStartTriVi() {
+        return StartTriVi;
     }
-
+    public int getEndTriVi() {
+        return EndTriVi;
+    }
     public String getTheThu() {
         return TheThu;
     }
@@ -72,7 +74,7 @@ public class King extends HistoricalFigure {
     @Override
     public String toString() {
         return "King [MieuHieu=" + MieuHieu + ", NienHieu=" + NienHieu + ", TheThu=" + TheThu + ", ThuyHieu=" + ThuyHieu
-                + ", Trivi=" + Trivi + "]";
+                + ", Trivi=" + StartTriVi + "-" + EndTriVi + ", HoangDe=" + HoangDe + ", Name=" + "]";
     }
 
 }
